@@ -20,7 +20,7 @@ The solution includes the following layers from center to outer: *Domain Model*,
 - **ApplicationCore.Services:** Concrete implementation of service interfaces that handle data validation and business logic
 
 ###### Infrastructure
-- **Infrastructure.Repositories:** Concrete implementation of infrastructure interfaces where specific technologies are consumed such as Entity Framework, NoSQL
+- **Infrastructure.Repositories:** Concrete implementation of infrastructure interfaces where specific technologies are consumed such as Entity Framework, Dapper, and NoSQL
 
 ###### Client (UI)
 - **Clients.ConsoleApplication:** Program logic that consumes API services
@@ -29,4 +29,4 @@ The solution includes the following layers from center to outer: *Domain Model*,
 - **Tests.Services.Tests:** Unit tests to support the API
 
 ###### Utilities
-- **Utilities.DI.Modules:** Registers inversion of control containers used for dependency injection
+- **Utilities.DI.Modules:** Inversion of control modules used for dependency injection
