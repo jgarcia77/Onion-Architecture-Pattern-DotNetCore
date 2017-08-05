@@ -7,8 +7,8 @@ Below is a general diagram that depicts the “Onion Architecture Pattern”.
 
 The solution includes the following layers from center to outer: *Domain Model*, *Domain Services*, *Application Services*, *Infrastructure*, *Client (UI)*, *Tests*.  The *Domain Model*, *Domain Services*, and *Application Services* layers make up the *Application Core*.  The *Infrastructure*, *Client (UI)*, and *Tests* layers are the outermost layers and depend on the layers in the *Application Core*.
 
-##Projects in the solution:
-######Domain Model
+## Projects in the solution:
+###### Domain Model
 - ApplicationCore.Domain.Models: Contains all domain models
 
 Domain Services
