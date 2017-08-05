@@ -3,4 +3,4 @@ The “Hello World” program is built on the “Onion Architecture Pattern”, 
 
 Below is a general diagram that depicts the “Onion Architecture Pattern”.
 
-![Onion Architecture Pattern Diagram](/../Onion-Architecture-Pattern-DotNetCore/union-diagram.png?raw=true "Onion Architecture Pattern Diagram")
+![Onion Architecture Pattern Diagram](/../union-diagram.png "Onion Architecture Pattern Diagram")
