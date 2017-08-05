@@ -11,29 +11,22 @@ The solution includes the following layers from center to outer: *Domain Model*,
 ###### Domain Model
 - ApplicationCore.Domain.Models: Contains all domain models
 
-Domain Services
-ApplicationCore.Domain.Interfaces
--	Contains infrastructure interfaces that abstract infrastructure
+###### Domain Services
+- ApplicationCore.Domain.Interfaces: Contains infrastructure interfaces that abstract infrastructure
 
-Application Services
-ApplicationCore.Services.Interfaces
--	Contain service interfaces that abstract the API and entry point to the domain
+###### Application Services
+- ApplicationCore.Services.Interfaces Contain service interfaces that abstract the API and entry point to the domain
 
-ApplicationCore.Services
--	Concrete implementation of service interfaces that handle data validation and business logic
+- ApplicationCore.Services: Concrete implementation of service interfaces that handle data validation and business logic
 
-Infrastructure
-Infrastructure.Repositories
--	Concrete implementation of infrastructure interfaces where specific technologies are consumed such as Entity Framework, NoSQL
+###### Infrastructure
+- Infrastructure.Repositories: Concrete implementation of infrastructure interfaces where specific technologies are consumed such as Entity Framework, NoSQL
 
-Client (UI)
-Clients.ConsoleApplication
--	Program logic that consumes API services
+###### Client (UI)
+- Clients.ConsoleApplication: Program logic that consumes API services
 
-Tests
-Tests.Services.Tests
--	Unit tests to support the API
+###### Tests
+- Tests.Services.Tests: Unit tests to support the API
 
-Utilities
-Utilities.DI.Modules
--	Registers inversion of control containers used for dependency injection
+###### Utilities
+- Utilities.DI.Modules: Registers inversion of control containers used for dependency injection
