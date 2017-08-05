@@ -9,13 +9,13 @@ The solution includes the following layers from center to outer: *Domain Model*,
 
 ## Projects in the solution:
 ###### Domain Model
-- ApplicationCore.Domain.Models: Contains all domain models
+- **ApplicationCore.Domain.Models:** Contains all domain models
 
 ###### Domain Services
 - ApplicationCore.Domain.Interfaces: Contains infrastructure interfaces that abstract infrastructure
 
 ###### Application Services
-- ApplicationCore.Services.Interfaces Contain service interfaces that abstract the API and entry point to the domain
+- ApplicationCore.Services.Interfaces: Contain service interfaces that abstract the API and entry point to the domain
 
 - ApplicationCore.Services: Concrete implementation of service interfaces that handle data validation and business logic
 
