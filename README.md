@@ -4,3 +4,5 @@ The “Hello World” program is built on the “Onion Architecture Pattern”, 
 Below is a general diagram that depicts the “Onion Architecture Pattern”.
 
 ![Onion Architecture Pattern Diagram](union-diagram.png)
+
+The solution includes the following layers from center to outer: Domain Model, Domain Services, Application Services, Infrastructure, Client (UI), Tests.  The Domain Model, Domain Services, and Application Services layers make up the Application Core.  The Infrastructure, Client (UI), and Tests layers are the outermost layers and depend on the layers in the Application Core.
