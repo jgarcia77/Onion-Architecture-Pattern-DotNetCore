@@ -29,4 +29,4 @@ The solution includes the following layers from center to outer: *Domain Model*,
 - **Tests.Services.Tests:** Unit tests to support the API
 
 ###### Utilities
-- **Utilities.DI.Modules:** Inversion of control modules used for dependency injection
+- **Utilities.DI.Modules:** Contains Autofac modules used to bundle Infrastructure and Services components
